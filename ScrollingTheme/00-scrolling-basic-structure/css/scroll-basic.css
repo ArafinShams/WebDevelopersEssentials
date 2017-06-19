@@ -1,0 +1,52 @@
+/*!
+ * Start Bootstrap - Full (http://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.intro-section,
+.about-section,
+.services-section,
+.contact-section {
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+}
+
+.intro-section {}
+
+.about-section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.services-section {}
+
+.contact-section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*#intro {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
