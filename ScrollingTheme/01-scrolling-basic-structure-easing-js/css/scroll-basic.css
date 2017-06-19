@@ -1,0 +1,76 @@
+/*!
+ * ArafinShams
+ * Copyright 2016-2017 ArafnShams
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section,
+.about-section,
+.services-section,
+.contact-section {
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+ 
+}
+
+.intro-section {
+        background: #eee;
+}
+
+.about-section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+       display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.services-section {
+        background: #eee;
+}
+
+.contact-section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+       display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*#intro {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
