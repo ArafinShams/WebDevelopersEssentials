@@ -1,0 +1,243 @@
+/*!
+ * ArafinShams
+ * Copyright 2016-2017 ArafinShams
+ * http://shopnosoft.com
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+/*////////////////////////////
+/////---Fonts and Colors---///
+////////////////////////////*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.shopno-red {
+    color: #bb0000;
+}
+
+.shopno-blue {
+    color: #3b5998;
+}
+
+
+/*////////////////////////////
+/////---Sections---/////
+////////////////////////////*/
+
+.intro-section,
+.about-section,
+.services-section,
+.contact-section {
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.intro-section {
+    background: #eee;
+}
+
+.about-section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.services-section {
+    background: #eee;
+}
+
+.contact-section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*////////////////////////////
+/////---Footer---/////
+////////////////////////////*/
+
+footer {
+    color: white;
+    bottom: 0;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #242627;
+}
+
+
+/* Footer social-icons */
+
+
+/* ================================================== */
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icons i {
+    text-decoration: none;
+    text-shadow: none;
+    color: #fff;
+    padding: 16px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: solid 1px #fff;
+}
+
+.footer-social-icons ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #fff;
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #242627;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #242627;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-envelope {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #242627;
+}
+
+.fa-envelope:hover {
+    background-color: #c71610;
+}
+
+.fa-google-plus {
+    padding: 10px 9px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #242627;
+}
+
+.fa-google-plus:hover {
+    background-color: #d34836;
+}
+
+.fa-skype {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #242627;
+}
+
+.fa-skype:hover {
+    background-color: #00aff0;
+}
